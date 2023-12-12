@@ -4,3 +4,9 @@ D:\Курс_II\ООАиП\Composite\ClassLibrary1\obj\Debug\Composite.csproj.Ass
 D:\Курс_II\ООАиП\Composite\ClassLibrary1\obj\Debug\Composite.csproj.CoreCompileInputs.cache
 D:\Курс_II\ООАиП\Composite\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 D:\Курс_II\ООАиП\Composite\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\user\Documents\GitHub\LR_Composite\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\user\Documents\GitHub\LR_Composite\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\user\Documents\GitHub\LR_Composite\ClassLibrary1\obj\Debug\Composite.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\LR_Composite\ClassLibrary1\obj\Debug\Composite.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\LR_Composite\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\user\Documents\GitHub\LR_Composite\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

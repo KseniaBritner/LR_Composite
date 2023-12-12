@@ -15,7 +15,7 @@ namespace ClassLibrary1
         {
             _name = name;
         }
-        public void Add(IComponent component)
+        public override void Add(IComponent component)
         {
             if (component == null)
             {
@@ -23,7 +23,7 @@ namespace ClassLibrary1
             }
             _components.Add(component);
         }
-        public void Print()
+        public override void Print()
         {
             Console.WriteLine($"Меню {_name}:");
             foreach (var component in _components)
@@ -32,7 +32,7 @@ namespace ClassLibrary1
             }
         }
 
-        public void Remove(IComponent component)
+        public override void Remove(IComponent component)
         {
             if (component == null)
             {

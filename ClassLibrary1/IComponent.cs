@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public interface IComponent
+    public abstract class IComponent
     {
-        void Add(IComponent component);
-        void Print();
-        void Remove(IComponent component);
+        public abstract void Add(IComponent component) ;
+        public abstract void Print();
+        public abstract void Remove(IComponent component);
     }
 }

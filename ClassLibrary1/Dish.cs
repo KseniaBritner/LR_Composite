@@ -15,17 +15,17 @@ namespace ClassLibrary1
             _name = name;
             _isVegan = isVegan;
         }
-        public void Add(IComponent component)
+        public override void Add(IComponent component)
         {
             throw new InvalidOperationException("Блюдо не изменяется");
         }
-        public void Print()
+        public override void Print()
         {
             string isVegan = _isVegan ? "Веганское блюдо" : "";
-            Console.WriteLine($"- {_name} {isVegan}");
+            Console.WriteLine($"{_name} {isVegan}");
         }
 
-        public void Remove (IComponent component)
+        public override void Remove (IComponent component)
         {
             throw new InvalidOperationException("Блюдо не изменяется");
         }

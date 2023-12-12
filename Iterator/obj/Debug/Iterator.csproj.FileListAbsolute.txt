@@ -1,0 +1,11 @@
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\obj\Debug\Iterator.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\obj\Debug\Iterator.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\obj\Debug\Iterator.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\bin\Debug\Iterator.exe
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\bin\Debug\Iterator.pdb
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\bin\Debug\ClassLibrary1.dll
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\bin\Debug\ClassLibrary1.pdb
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\obj\Debug\Iterator.csproj.CopyComplete
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\obj\Debug\Iterator.exe
+C:\Users\user\Documents\GitHub\LR_Composite\Iterator\obj\Debug\Iterator.pdb
