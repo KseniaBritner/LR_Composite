@@ -29,5 +29,9 @@ namespace ClassLibrary1
         {
             throw new InvalidOperationException("Блюдо не изменяется");
         }
+        public override void Accept(LR_Visitor.Visitor visitor)
+        {
+            visitor.Visit(this);
+        }
     }
 }

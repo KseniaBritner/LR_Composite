@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace ClassLibrary1
 {
     public class Section : IComponent
-    {
-        private List<IComponent> _components = new List<IComponent>();
+    { 
         private string _name;
 
         public Section(string name)
@@ -42,6 +41,10 @@ namespace ClassLibrary1
                 throw new InvalidOperationException("Указанный компонент не найден в секции");
             }
             _components.Remove(component);
+        }
+        public override void Accept(LR_Visitor.Visitor visitor)
+        {
+            visitor.Visit(this);
         }
     }
 }

@@ -1,16 +1,16 @@
-﻿using System;
+﻿using LR_Visitor;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace ClassLibrary1
 {
     public class Menu : IComponent
     {
-        private List<IComponent> _components = new List<IComponent>();
         private string _name;
-
         public Menu(string name)
         {
             _name = name;
@@ -31,7 +31,6 @@ namespace ClassLibrary1
                 component.Print();
             }
         }
-
         public override void Remove(IComponent component)
         {
             if (component == null)
@@ -44,5 +43,10 @@ namespace ClassLibrary1
             }
             _components.Remove(component);
         }
+        public override void Accept(Visitor visitor)
+        {
+            visitor.Visit(this);
+        }
+
     }
 }
